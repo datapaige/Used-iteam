@@ -1,6 +1,7 @@
 import React from "react"
 import {View,Text,StyleSheet,TouchableOpacity} from "react-native"
 import { useNavigation } from "@react-navigation/native";
+import Input from "./Header/Input";
 
 const Home = ()=>{
 
@@ -8,7 +9,7 @@ const Home = ()=>{
 
     return(
         <View style={styles.container}>
-          
+            <Input Text={"search..."} bdColor='#E4E4E4'  />
              <Text style={styles.text}>
                 Home
              </Text>
